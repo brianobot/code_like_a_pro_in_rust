@@ -1,0 +1,6 @@
+[package]
+name = "code-like-a-pro-in-rust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
