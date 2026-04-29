@@ -7,6 +7,13 @@ edition = "2024"
 libc = "0.2.186"
 num_cpus = { path = "num_cpus" }
 rand = "0.10.1"
+subworkspace1 = { "path" = "./subworkspace1" }
+subworkspace2 = { "path" = "./subworkspace2" }
+subworkspace3 = { "path" = "./subworkspace3" }
+
+
+[workspace]
+members = ["build-script-example","subworkspace1", "subworkspace2", "subworkspace3"]
 
 # [patch.crates-io]
 # libc = { git = "https://github.com/rust-lang/libc", rev = "95c957237dcad9096ba26d712ca3e3aacc16e8de"}

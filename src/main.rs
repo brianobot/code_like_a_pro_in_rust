@@ -5,6 +5,7 @@
 
 #![warn(missing_docs)]
 
+
 /// # Talk
 /// 
 /// Says something really important i guess
@@ -15,5 +16,8 @@ pub fn talk() -> String {
 fn main() {
     println!("Hello, world!");
     let speech = talk();
-    println!("{speech}")
+    println!("{speech}");
+    
+    let greeting = subworkspace3::hello();
+    println!("{greeting}");
 }
