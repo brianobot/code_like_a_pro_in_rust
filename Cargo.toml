@@ -4,3 +4,9 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+libc = "0.2.186"
+num_cpus = { path = "num_cpus" }
+rand = "0.10.1"
+
+# [patch.crates-io]
+# libc = { git = "https://github.com/rust-lang/libc", rev = "95c957237dcad9096ba26d712ca3e3aacc16e8de"}
