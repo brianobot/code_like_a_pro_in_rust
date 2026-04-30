@@ -1,7 +1,6 @@
 use libc::c_char;
 use std::ffi::CStr;
 
-
 unsafe extern "C" {
     fn hello_world() -> *const c_char;
 }
