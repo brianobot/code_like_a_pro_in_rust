@@ -1,5 +1,3 @@
-
-
 fn main() {
     println!("cargo:rerun-if-changed=src/hello_world.c");
     cc::Build::new()
